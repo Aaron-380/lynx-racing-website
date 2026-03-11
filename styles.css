@@ -19,8 +19,8 @@
     --accent-secondary-glow: rgba(139, 92, 246, 0.4);
 
     /* Typography */
-    --font-heading: 'Outfit', sans-serif;
-    --font-body: 'Inter', sans-serif;
+    --font-heading: 'Space Grotesk', sans-serif;
+    --font-body: 'Montserrat', sans-serif;
 
     /* Layout */
     --max-width: 1200px;
