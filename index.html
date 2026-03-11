@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Lynx Racing Team - Precision, Speed, and Innovation">
+    <title>Lynx Racing Team</title>
+    <!-- Google Fonts: Outfit for Headings, Inter for Body -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@500;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="text-gradient">LYNX</span> RACING
+            </div>
+            <ul class="nav-links">
+                <li><a href="about.html">About</a></li>
+                <li><a href="team.html">Team</a></li>
+                <li><a href="index.html#sponsors">Sponsors</a></li>
+                <li><a href="index.html#contact" class="btn-primary">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1 class="reveal-up">UNSW <span class="text-gradient">LYNX</span> RACING</h1>
+                <p class="reveal-up delay-1">UNSW's premier racing team pushing the boundaries of automotive engineering
+                    and performance.</p>
+            </div>
+
+
+        </section>
+
+        <!-- About/Features Section -->
+        <section id="features" class="about-section">
+            <div class="container">
+                <div class="about-grid">
+                    <a href="join.html" class="card-link"
+                        style="text-decoration: none; color: inherit; display: block;">
+                        <div class="about-card card-join reveal-up">
+                            <img src="assets/join-team-photo.jpg" alt="Team Photo" class="card-image">
+                            <h3>Join the team</h3>
+                            <p>To design, build, and race high-performance vehicles that challenge the status quo and
+                                foster
+                                the next generation of top-tier engineers.</p>
+                        </div>
+                    </a>
+                    <a href="support.html" class="card-link"
+                        style="text-decoration: none; color: inherit; display: block;">
+                        <div class="about-card card-support reveal-up delay-1">
+                            <img src="assets/support-bikey-photo.jpg" alt="Bikey Photo" class="card-image">
+                            <h3>Support us</h3>
+                            <p>Built upon years of competitive racing heritage, Lynx Racing combines cutting-edge theory
+                                with relentless practical application.</p>
+                        </div>
+                    </a>
+                    <a href="who.html" class="card-link" style="text-decoration: none; color: inherit; display: block;">
+                        <div class="about-card card-who reveal-up delay-2">
+                            <img src="assets/who-field-photo.jpg" alt="Field Photo" class="card-image">
+                            <h3>Who are we?</h3>
+                            <p>A diverse collective of designers, aerodynamicists, and mechanics unified by a single
+                                vision:
+                                absolute performance on the track.</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Vehicle Section -->
+        <section id="vehicle" class="vehicle-section">
+            <div class="container container-split">
+                <div class="vehicle-info reveal-up">
+                    <h2 class="text-gradient">LX-24</h2>
+                    <h3>The Pinnacle of Engineering</h3>
+                    <p>Our latest challenger represents an evolutionary leap in aerodynamic efficiency and power
+                        delivery. Every component scrutinized, every ounce justified.</p>
+
+                    <div class="specs-grid">
+                        <div class="spec-item">
+                            <span class="spec-val">0-100</span>
+                            <span class="spec-label">2.8s</span>
+                        </div>
+                        <div class="spec-item">
+                            <span class="spec-val">Weight</span>
+                            <span class="spec-label">210kg</span>
+                        </div>
+                        <div class="spec-item">
+                            <span class="spec-val">Downforce</span>
+                            <span class="spec-label">850N @100kph</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="vehicle-visual reveal-up delay-1">
+                    <div class="car-placeholder">
+                        <div class="glow-orb"></div>
+                        <span>[LX-24 Render Placeholder]</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sponsors Section -->
+        <section id="sponsors" class="sponsors-section">
+            <div class="container">
+                <div class="section-header reveal-up">
+                    <h2>Backed by <span class="text-gradient">Industry Leaders</span></h2>
+                </div>
+                <div class="sponsor-grid reveal-up delay-1">
+                    <div class="sponsor-logo">Logo 1</div>
+                    <div class="sponsor-logo">Logo 2</div>
+                    <div class="sponsor-logo">Logo 3</div>
+                    <div class="sponsor-logo">Logo 4</div>
+                    <div class="sponsor-logo">Logo 5</div>
+                    <div class="sponsor-logo">Logo 6</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <div class="container container-narrow">
+                <div class="section-header reveal-up">
+                    <h2>Get in <span class="text-gradient">Touch</span></h2>
+                    <p>Interested in partnering with us or joining the team?</p>
+                </div>
+
+                <form class="contact-form reveal-up delay-1" id="contactForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="firstName">First Name</label>
+                            <input type="text" id="firstName" name="firstName" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="lastName">Last Name</label>
+                            <input type="text" id="lastName" name="lastName" required>
+                        </div>
+                    </div>
+                    <div class="form-group full-width">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-actions">
+                        <button type="reset" class="btn-outline">Reset</button>
+                        <button type="submit" class="btn-primary">Send Message</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3><span class="text-gradient">LYNX</span> RACING</h3>
+                    <p>UNSW Sydney</p>
+                </div>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook">Fb</a>
+                    <a href="#" aria-label="LinkedIn">In</a>
+                    <a href="#" aria-label="Instagram">Ig</a>
+                    <a href="#" aria-label="YouTube">Yt</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Lynx Racing. Built with precision.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
